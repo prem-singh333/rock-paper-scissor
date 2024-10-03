@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #2a83ab;
+    text-align: center;
+}
+
+h1{
+    color: #0f2f3d;
+}
+
+.choises{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+}
+
+.box{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 6rem;
+}
+
+#rock{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(rock-image.jpg);
+    background-size: cover;
+}
+
+.hover{
+    border: 2px solid #2a83ab;
+}
+
+.hover:hover{
+    border: 2px solid #0f2f3d;
+}
+
+#paper{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(paper-image.jpg);
+    background-size: cover;
+}
+
+#scissors{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(siseor-image.jpg);
+    background-size: cover;
+}
+
+.name{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    color: #0f2f3d;
+}
+
+.score-board{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 4rem;
+}
+
+.bothUsers{
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #0f2f3d;
+}
+
+.msg{
+    background-color:  #fff; /*#0f2f3d*/
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:  #000;
+    display: inline;
+    border-radius: 5px;
+    padding: 2px 5px 2px 5px;
+}
